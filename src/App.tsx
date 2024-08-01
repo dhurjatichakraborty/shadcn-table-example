@@ -4,16 +4,16 @@ import DemoPage from "./pages/Table";
 import PageNotFound from "./pages/NotFoundPage";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <RootLayout>
-        <Routes>
-          <Route path="/" element={<DemoPage/>}/>
-          <Route path="*" element={<PageNotFound/>} />
-        </Routes>
-      </RootLayout>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <RootLayout>
+                <Routes>
+                    <Route path="/" element={<DemoPage />} />
+                    <Route path="*" element={<PageNotFound />} />
+                </Routes>
+            </RootLayout>
+        </BrowserRouter>
+    );
 }
 
 export default App;
